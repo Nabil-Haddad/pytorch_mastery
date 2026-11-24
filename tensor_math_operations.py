@@ -45,3 +45,5 @@ print(tensor_a.add(tensor_b))
 
 # reasignement 
 # instead of doing tensor_a = tensor_a + tensor_b
+tensor_a.add(tensor_b)
+print(tensor_a)
